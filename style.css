@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+/* 💡 [AI REVIEW - SUGGESTION] Why are you targeting all elements with `*`? Consider being more specific to avoid unnecessary CSS application. */
 * {
   box-sizing: border-box;
 }
@@ -7,6 +8,7 @@
 body {
   background-color: #3b3b98;
   color: #fff;
+/* ⭐ [AI REVIEW - PRAISE] Consider using a font stack with multiple fonts instead of relying on Google Fonts for both primary and fallback fonts. */
   font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
@@ -51,6 +53,7 @@ h2 {
   height: 100%;
 }
 
+/* ⚠️ [AI REVIEW - WARNING] WebKit scrollbar styles can be overridden by user agents. Consider adding browser-specific prefixes or waiting for CSS scrollbar support to become more widespread. */
 #result::-webkit-scrollbar {
   width: 1rem;
 }
